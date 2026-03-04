@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .product-container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1, h2 {
+            color: #0056b3;
+        }
+
+        .features-list {
+            list-style-type: disc;
+            padding-left: 20px;
+            line-height: 1.6;
+        }
+
+        .features-list li {
+            margin-bottom: 8px;
+        }
+
+        /* Table Styling */
+        .pricing-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .pricing-table th, .pricing-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .pricing-table th {
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Alternate row colors using pseudo-class */
+        .pricing-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .pricing-table tr:hover {
+            background-color: #e9e9e9;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="product-container">
+        <h1>Ultimate Smartwatch Pro</h1>
+
+        <h2>Key Features</h2>
+        <ul class="features-list">
+            <li>Bright 1.5-inch AMOLED display with always-on mode.</li>
+            <li>Advanced health tracking: heart rate, SpO2, sleep analysis.</li>
+            <li>Built-in GPS for accurate location and activity tracking.</li>
+            <li>Water-resistant design, perfect for swimming and outdoor activities.</li>
+            <li>Seamless integration with iOS and Android devices.</li>
+            <li>Up to 14 days of battery life on a single charge.</li>
+        </ul>
+
+        <h2>Pricing & Plans</h2>
+        <table class="pricing-table">
+            <thead>
+                <tr>
+                    <th>Plan</th>
+                    <th>Price</th>
+                    <th>Included Services</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Basic</td>
+                    <td>$199</td>
+                    <td>Standard health metrics, basic app features.</td>
+                </tr>
+                <tr>
+                    <td>Pro</td>
+                    <td>$249</td>
+                    <td>Advanced health tracking, GPS, music storage.</td>
+                </tr>
+                <tr>
+                    <td>Premium</td>
+                    <td>$299</td>
+                    <td>All Pro features plus dedicated customer support, extended warranty.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
